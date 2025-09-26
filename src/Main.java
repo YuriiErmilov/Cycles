@@ -26,11 +26,11 @@ public class Main {
         }
         // 6 задача
         for (int i = 7; i <= 98; i = i + 7) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
         // 7 задача
         for (int i = 1; i <= 512; i = i * 2) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
         // 8 задача
         int amountOfSavings = 29000;
@@ -43,7 +43,7 @@ public class Main {
 
         int amountOfSavings2 = 29000;
         int totalOfSavings2 = 0;
-        for (int i = 1; i <= 12; i++) {
+        for (int i = 0; i <= 12; i++) {
             totalOfSavings2 = totalOfSavings2 + totalOfSavings2/100;
             totalOfSavings2 += amountOfSavings2;
             System.out.println("Месяц " + i + " сумма накоплений равна " + totalOfSavings2 + " рублей");
